@@ -3,16 +3,15 @@ package java_250219.ch04.third;
 public class People {
 public static void main(String[] args) {
 	
-	User user = new User("김삼순");
+	User user = new User();
 	user.showMyName();
-	Admin admin = new Admin("김연용");
+	Admin admin = new Admin();
 	admin.showMyName();
 	
-	Member member = new Admin("김연용");
+	Member member = new Admin();
 	member.showMyName();
 	
-	member = new User("김삼순");
-	member.showMyName();
+	
 	
 	
 	
